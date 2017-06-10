@@ -4,7 +4,7 @@
 __author__ = 'cent'
 
 '''
-a demo show how to use unittest module
+a demo shows how to use unittest module
 write unit test for dict class
 '''
 
@@ -20,6 +20,7 @@ class TestDict(unittest.TestCase):
     def tearDown(self):
         print('tearDown: End')
 
+    # unit test function named with prefix test
     def test_init(self):
         d = dict(a=1, b='test')
         self.assertIsInstance(d, dict)
