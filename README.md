@@ -7,8 +7,8 @@ to learn python
 including some useful demos
 包含一些有用例子
 
-content of demo
-目录
+content of demo   
+目录  
 1、hello_world：第一个python程序;   
 2、python_template：python程序格式模板;   
 3、primes：埃式筛法求素数，涉及iterator（生成器）的使用;   
