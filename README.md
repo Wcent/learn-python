@@ -19,3 +19,4 @@ content of demo</br>
 8、exception_demo：异常处理，涉及try...exception...finally使用，及logging模块记录异常日志方便事后排查问题</br>
 9、unittest_demo: 单元测试编写例子，u涉及nittest模块使用</br>
 10、io_demo：文件io(input/output)操作示例，涉及open打开文件close关闭释放资源，try...finally...或者with...as...确保文件关闭</br>
+11、pickle_demo：对象序列化/反序列化，涉及pickle和json模块</br>
