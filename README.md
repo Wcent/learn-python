@@ -20,5 +20,5 @@ content of demo</br>
 9、unittest_demo: 单元测试编写例子，u涉及nittest模块使用</br>
 10、io_demo：文件io(input/output)操作示例，涉及open打开文件close关闭释放资源，try...finally...或者with...as...确保文件关闭</br>
 11、pickle_demo：对象序列化/反序列化，涉及pickle和json模块</br>
-12、multiprocessing_demo：多进程示例，涉及fork()、Process、Pool及Queue实现进程间通信<\br>
-13、threading_demo：多线程示例，使用lock加锁保证线程共享数据修改安全性，ThreadLocal实现多线程间数据传递，线程间数据独立互不影响K<\br>
+12、multiprocessing_demo：多进程示例，涉及fork()、Process、Pool及Queue实现进程间通信</br>
+13、threading_demo：多线程示例，使用lock加锁保证线程共享数据修改安全性，ThreadLocal实现多线程间数据传递，线程间数据独立互不影响</br>
