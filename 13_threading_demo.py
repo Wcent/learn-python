@@ -5,7 +5,8 @@ __author__ = 'cent'
 
 '''
 a demo shows how to use multi-thread with threading module
-使用threading模块执行多线程任务，lock加锁保证线程共享数据修改确定性
+使用threading模块执行多线程任务，
+lock加锁保证线程共享数据修改确定性，ThreadLocal机制实现线程间数据传递，并且数据独立
 '''
 
 import threading, time
@@ -76,14 +77,41 @@ def test_change(func):
     t2.start()
     t1.join()
     t2.join()
-    print(rst)
+    print('Thread (%s) Rst: %s' % (func.__name__, rst))
 
 # 无锁、加锁2种方式使用多线程修改数据
 def test_two_way():
+    print('Test Lock:')
     test_change(unlock_change)
     test_change(lock_change)
 
+
+
+# ThreadLocal实现线程间数据传递，数据独立互不影响，不需要加锁访问
+resource = threading.local() # 创建全局thread local
+
+def task_prc():
+    # 获取当前线程关联obj
+    obj = resource.task_obj
+    print('thread (%s) is running, processing object (%s)' % (threading.current_thread().name, obj))
+
+def thread_task(obj):
+    # 线程关联绑定obj
+    resource.task_obj = obj
+    task_prc()
+
+# 创建多个线程，不同线程传入不同对象处理，互相独立不影响
+def test_thread_local():
+    print('Test ThreadLocal: ')
+    for i in range(5):
+        t = threading.Thread(target=thread_task, args=('Obj_'+str(i),), name='Misson_'+str(i))
+        t.start()
+
+
+# testing
 if __name__ == '__main__':
-    test_thread()
+    #test_thread()
 
     test_two_way()
+
+    test_thread_local()
