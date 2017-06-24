@@ -23,3 +23,4 @@ content of demo</br>
 12、multiprocessing_demo：多进程示例，涉及fork()、Process、Pool及Queue实现进程间通信</br>
 13、threading_demo：多线程示例，使用lock加锁保证线程共享数据修改安全性，ThreadLocal实现多线程间数据传递，线程间数据独立互不影响</br>
 14、queue_manager：分布式进程示例，通过manager包中BaseManager类管理Queue对象，暴露网络访问接口给其他机器实现任务分发</br>
+15、regular_expression: 正则表达式示例，涉及匹配规则及re模块的使用，分组、分割、编译</br>
