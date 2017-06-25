@@ -27,3 +27,4 @@ content of demo</br>
 16、hashlib_demo：使用内置库示例，涉及MD5、SHA1等使用</br>
 17、contextlib_demo：上下文管理示例，涉及with...as...，@contextmanager，@closing装饰器等内容</br>
 18、xml_parser：xml解析示例，涉及SAX、ContentHandler等</br>
+19、html_parser：html解析示例，涉及HTMLParser等</br>
