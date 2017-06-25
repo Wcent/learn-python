@@ -26,3 +26,4 @@ content of demo</br>
 15、regular_expression: 正则表达式示例，涉及匹配规则及re模块的使用，分组、分割、编译</br>
 16、hashlib_demo：使用内置库示例，涉及MD5、SHA1等使用</br>
 17、contextlib_demo：上下文管理示例，涉及with...as...，@contextmanager，@closing装饰器等内容</br>
+18、xml_parser：xml解析示例，涉及SAX、ContentHandler等</br>
