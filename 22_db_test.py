@@ -119,7 +119,7 @@ def test_mysql():
 
 def mysql_create_table():
     try:
-        db_connect = mysql.connector.connect(user='root', password='686905', database='test')
+        db_connect = mysql.connector.connect(user='root', password='******', database='test')
         cursor = db_connect.cursor()
         cursor.execute('create table if not exists users(id varchar(20) primary key, name varchar(20))')
         db_connect.commit()
@@ -134,7 +134,7 @@ def mysql_create_table():
 
 def mysql_insert():
     # contextlib.closing()使得mysql connect可用于with...as...context manager
-    with closing(mysql.connector.connect(user='root', password='686905', database='test')) as db_connect:
+    with closing(mysql.connector.connect(user='root', password='******', database='test')) as db_connect:
         cursor = db_connect.cursor()
 
         # mysql使用%s作为参数占位符构造sql语句
