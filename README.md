@@ -21,7 +21,8 @@ content of demo</br>
 10、io_demo：文件io(input/output)操作示例，涉及open打开文件close关闭释放资源，try...finally...或者with...as...确保文件关闭</br>
 11、pickle_demo：对象序列化/反序列化，涉及pickle和json模块</br>
 12、multiprocessing_demo：多进程示例，涉及fork()、Process、Pool及Queue实现进程间通信</br>
-13、threading_demo：多线程示例，使用lock加锁保证线程共享数据修改安全性，ThreadLocal实现多线程间数据传递，线程间数据独立互不影响</br>
+13、threading
+_demo：多线程示例，使用lock加锁保证线程共享数据修改安全性，ThreadLocal实现多线程间数据传递，线程间数据独立互不影响</br>
 14、queue_manager：分布式进程示例，通过manager包中BaseManager类管理Queue对象，暴露网络访问接口给其他机器实现任务分发</br>
 15、regular_expression: 正则表达式示例，涉及匹配规则及re模块的使用，分组、分割、编译</br>
 16、hashlib_demo：使用内置库示例，涉及MD5、SHA1等使用</br>
@@ -31,3 +32,4 @@ content of demo</br>
 20、urllib_demo：http操作请求示例，涉及GET/POST，以及模拟浏览器请求</br>
 21、tcpip_demo：tcp/udp网络编程示例，涉及socket</br>
 22、db_demo：database使用示例，涉及SQLite和MySQL</br>
+22、SQLAlchemy_demo：orm框架使用示例，涉及SQLAlchemy和MySQL</br>
