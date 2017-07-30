@@ -32,4 +32,5 @@ _demo：多线程示例，使用lock加锁保证线程共享数据修改安全�
 20、urllib_demo：http操作请求示例，涉及GET/POST，以及模拟浏览器请求</br>
 21、tcpip_demo：tcp/udp网络编程示例，涉及socket</br>
 22、db_demo：database使用示例，涉及SQLite和MySQL</br>
-22、SQLAlchemy_demo：orm框架使用示例，涉及SQLAlchemy和MySQL</br>
+23、SQLAlchemy_demo：orm框架使用示例，涉及SQLAlchemy和MySQL</br>
+24、WSGI_demo：wsgi框架开发web app示例</br>
