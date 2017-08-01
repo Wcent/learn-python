@@ -34,3 +34,4 @@ _demo：多线程示例，使用lock加锁保证线程共享数据修改安全�
 22、db_demo：database使用示例，涉及SQLite和MySQL</br>
 23、SQLAlchemy_demo：orm框架使用示例，涉及SQLAlchemy和MySQL</br>
 24、WSGI_demo：wsgi框架开发web app示例</br>
+25、web_demo：flask框架开发web app示例</br>
