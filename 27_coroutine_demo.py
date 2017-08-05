@@ -13,7 +13,7 @@ def producer(c):
     for i in range(10):
         if i == 0:
             print('[Producer]->: Get consumer ready!')
-            # 首先得启动generator
+            # 首先得启动generator，不能send non-None值
             result = c.send(None)
         else:
             print('[Producer]->: producing %s' % i)
