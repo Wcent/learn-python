@@ -37,3 +37,4 @@ _demo：多线程示例，使用lock加锁保证线程共享数据修改安全�
 25、web_demo：flask框架开发web app示例</br>
 26、MVC_demo：template开发web app示例，MVC设计，分离html</br>
 27、conroutine_demo：coroutine实现生产者-消费者模型示例</br>
+28、asyncio_demo：asyncio库使用示例，涉及coroutine配合yield from实现异步io等多任务并发执行</br>
